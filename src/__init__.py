@@ -6,7 +6,7 @@ import asn1tools
 
 asn1_text = ""
 
-with open("./mms.asn") as f:
+with open("./src/mms.asn") as f:
     asn1_text = f.read()
 
     # Compile ASN.1 (BER)
