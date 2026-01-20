@@ -2,4 +2,4 @@
 
 source venv/bin/activate
 
-python main.py $1
+python -m src.main $1
