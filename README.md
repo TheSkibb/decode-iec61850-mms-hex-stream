@@ -12,6 +12,12 @@ you can get the hex stream from wireshark, or from another sniffer
 
 you can also import the compiles mms with
 
+The `-e` flag lets you encode a mms object back into a byte array
+
+~~~
+python -m src.main -e <mms object>
+~~~
+
 ~~~
 from src import mms
 ~~~
