@@ -1,3 +1,4 @@
+-- found @ https://github.com/rwl/OpenIEC61850/blob/master/src/mms/jmms/asn1/mms/mms.asn
 --
 -- Part of the ASN.1-Specification for MMS
 -- tries to include only those parts relevant for IEC 61850
