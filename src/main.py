@@ -21,12 +21,12 @@ def decode(hex_stream):
     # If you want to pretty-print nested results:
     print(decoded)
 
-    print("re-encoding:")
+    #print("re-encoding:")
 
-    encode(decoded)
+    #encoded = mms.encode("MmsPdu", decoded)
+    #print(encoded)
 
 def encode(obj):
-    # convert into an actual object
     obj = ast.literal_eval(obj)
     encoded = mms.encode('MmsPdu', obj)
     print(encoded)
