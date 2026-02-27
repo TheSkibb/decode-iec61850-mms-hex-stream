@@ -31,3 +31,7 @@ from src import mms
 ~~~
 ('confirmedRequestPdu', {'invokeID': 2, 'confirmedServiceRequest': ('getNameList', {'objectClass': ('basicObjectClass', 0), 'objectScope': ('domainSpecific', 'STRATON_IEDLDevice')})})
 ~~~
+
+## some known errors
+
+cant parse conclude-Request/ResponsePDU (8b00 and 8c00)
