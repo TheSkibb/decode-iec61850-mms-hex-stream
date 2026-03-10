@@ -32,6 +32,18 @@ from src import mms
 ('confirmedRequestPdu', {'invokeID': 2, 'confirmedServiceRequest': ('getNameList', {'objectClass': ('basicObjectClass', 0), 'objectScope': ('domainSpecific', 'STRATON_IEDLDevice')})})
 ~~~
 
+## Using as library
+
+you can also use this as a module in your python scripts by cloning the repo and using it as a module
+
+~~~py
+from src import parse, mms
+
+decoded = parse(b'<some byte array of mms request')
+
+encoded = mms.encode(decoded)
+~~~
+
 ## some known errors
 
 cant parse conclude-Request/ResponsePDU (8b00 and 8c00)
